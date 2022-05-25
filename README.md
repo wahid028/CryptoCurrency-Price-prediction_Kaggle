@@ -1,4 +1,4 @@
 # CryptoCurrency-Price-prediction_Kaggle
 ### Source: https://www.kaggle.com/competitions/g-research-crypto-forecasting/overview
-### codes are taken from the mentioned source. For more code please visit the mentioned url.
-### Feel free to modify this code for your own dataset.
+Codes are taken from the above mentioned source. For more codes you may visit the kaggle website.
+Feel free to modify this code for your own dataset.
