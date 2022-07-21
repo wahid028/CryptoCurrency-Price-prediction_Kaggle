@@ -39,6 +39,7 @@ J.	Target: Residual log-returns for the asset over a 15-minute horizon.
 ![image](https://user-images.githubusercontent.com/48195837/180144741-3dee77fa-3d4b-4533-bb3e-e3e0d0fe3cb4.png)
 
 Figure 2
+
 But the target and the feature were extremely noisy and hence we applied smoothing techniques to smoothen these curves. This might enable us to extract more valuable information from this data. The applied method to smoothen the curves was by resampling (aggregating) data over a wider period and taking the mean of these values shown in Figure 3.
 
 ![image](https://user-images.githubusercontent.com/48195837/180144765-de03f5cf-4617-43c0-a55e-ca38b37eb861.png)
@@ -55,6 +56,7 @@ We have isolated the adjusted closing prices, calculated the MA (moving average)
 ![image](https://user-images.githubusercontent.com/48195837/180144831-5f390328-c3e6-42c7-8c7d-358922fc79f9.png)
  
 Figure 5
+
 We also calculated the daily percentage change for DCP (daily closing price) and plot the distributions shown in Figure 6.
 
 ![image](https://user-images.githubusercontent.com/48195837/180144849-2bf5a934-1844-484a-8cc6-aecd2e592365.png)
@@ -78,6 +80,7 @@ Figure 8
 ![image](https://user-images.githubusercontent.com/48195837/180144932-89fd8de4-5250-4b09-8e2e-7d2fd0d74649.png)
  
 Figure 9
+
 To find the more detail about seasonality, we also drown seasonal plots and periodogram shown in Figure 10. 
 
 ![image](https://user-images.githubusercontent.com/48195837/180144958-1d220a6f-0720-4d35-a41f-805c6d179bf8.png)
